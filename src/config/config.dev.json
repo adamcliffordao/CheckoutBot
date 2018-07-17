@@ -1,0 +1,23 @@
+{
+  "cognito": {
+    "poolId": "eu-west-1:c725cc1f-4af6-49a8-9f94-489ff6549582"
+  },
+  "lex": {
+    "botName": "AOCheckoutChatBot",
+    "initialText": "Welcome to your basket, please start with 'Checkout now'",
+    "initialSpeechInstruction": "Welcome to your basket. Please say 'Checkout' to start the chcekout process"
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "ui": {
+    "toolbarColor": "primary",
+    "parentOrigin": "http://localhost:8080",
+    "avatarImageUrl":"https://ao.com/Themes/Common/Images/touch/app_icon_57.jpg"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "region":"eu-west-1"
+
+}
